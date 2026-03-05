@@ -3,56 +3,52 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Official Oral Health Support</title>
+<title>Oral Health Support</title>
 
 <style>
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(to bottom, #eaf6ff, #ffffff);
-  text-align: center;
+
+body{
+font-family: Arial;
+background:#f5f7fa;
+text-align:center;
+padding:20px;
 }
 
-.container {
-  padding: 30px 20px;
-  max-width: 500px;
-  margin: auto;
+.container{
+max-width:500px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,0,0,0.1);
 }
 
-h1 {
-  color: #0a3d62;
-  font-size: 26px;
+h1{
+color:#0a4a6b;
 }
 
-p {
-  font-size: 18px;
-  color: #333;
+img{
+width:220px;
+margin:20px 0;
 }
 
-img {
-  width: 260px;
-  margin: 20px 0;
+.button{
+display:inline-block;
+background:#2ecc71;
+color:white;
+padding:15px 25px;
+font-size:18px;
+border-radius:8px;
+text-decoration:none;
+margin-top:20px;
 }
 
-.button {
-  display: inline-block;
-  background-color: #27ae60;
-  color: white;
-  padding: 16px 28px;
-  font-size: 18px;
-  border-radius: 8px;
-  text-decoration: none;
-  margin-top: 20px;
-  font-weight: bold;
+.timer{
+color:red;
+font-weight:bold;
+margin-top:15px;
 }
 
-.timer {
-  margin-top: 15px;
-  font-size: 16px;
-  color: #c0392b;
-  font-weight: bold;
-}
 </style>
 
 </head>
@@ -61,36 +57,21 @@ img {
 
 <div class="container">
 
-<h1>Improve Your Oral Health Naturally</h1>
+<h1>Support Your Oral Health Naturally</h1>
 
-<img src="https://prodentim24.com/assets/images/prodentim.png" alt="ProDentim">
+<p>Thousands of people are improving their teeth and gum health with this natural formula.</p>
 
-<p>Thousands of people are restoring their teeth and gum health with this powerful natural formula.</p>
+<img src="https://prodentim24.com/wp-content/uploads/2022/03/prodentim-bottle.png">
 
-<a href="https://www.checkout-ds24.com/redir/533733/PatrickJonatas/" class="button">
-Claim Official Discount Now
+<br>
+
+<a class="button" href="https://www.checkout-ds24.com/redir/533733/PatrickJonatas/" target="_blank">
+Claim Your Discount Now
 </a>
 
-<div class="timer">
-Limited Offer Ends In: <span id="countdown">10:00</span>
-</div>
+<p class="timer">Limited promotion today</p>
 
 </div>
-
-<script>
-var time = 600;
-var countdownElement = document.getElementById("countdown");
-
-setInterval(function() {
-  var minutes = Math.floor(time / 60);
-  var seconds = time % 60;
-  countdownElement.innerHTML = 
-    (minutes < 10 ? "0" : "") + minutes + ":" + 
-    (seconds < 10 ? "0" : "") + seconds;
-  time--;
-  if (time < 0) time = 600;
-}, 1000);
-</script>
 
 </body>
 </html>
